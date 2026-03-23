@@ -49,10 +49,10 @@ if (!function_exists('app_mail_config')) {
             'host' => app_mail_env('APP_MAIL_HOST', ''),
             'port' => (int) $parsedPort,
             'encryption' => strtolower(app_mail_env('APP_MAIL_ENCRYPTION', 'tls')),
-            'username' => app_mail_env('APP_MAIL_USERNAME', 'estel.app@estel.edu.pt'),
-            'password' => app_mail_env('APP_MAIL_PASSWORD', 'bsoh cgsj fcsb estg'),
-            'from_email' => app_mail_env('APP_MAIL_FROM_EMAIL', 'estel.app@estel.edu.pt'),
-            'from_name' => app_mail_env('APP_MAIL_FROM_NAME', 'ESTEL SGP'),
+            'username' => app_mail_env('APP_MAIL_USERNAME', ''),
+            'password' => app_mail_env('APP_MAIL_PASSWORD', ''),
+            'from_email' => app_mail_env('APP_MAIL_FROM_EMAIL', ''),
+            'from_name' => app_mail_env('APP_MAIL_FROM_NAME', ''),
         ];
     }
 }
